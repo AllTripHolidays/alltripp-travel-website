@@ -26,6 +26,7 @@ const navLinks = [
   { name: "Trips", href: "/#trips" },
   { name: "Campus Ambassador", href: "/#campus" },
   { name: "Testimonials", href: "/#testimonials" },
+  { name: "Blogs", href: "/blog" },
 ];
 
 const Navbar: React.FC = () => {
