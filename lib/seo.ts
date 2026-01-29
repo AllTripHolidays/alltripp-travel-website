@@ -18,7 +18,7 @@ export function generateMetadata({
   description = "Discover India's hidden gems with AllTripp - your premium travel partner. Authentic travel experiences, cultural tours, and adventure trips across incredible India.",
   keywords = [],
   canonical,
-  ogImage = "/logo.png",
+  ogImage = "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop&crop=center",
   ogType = "website",
   publishedTime,
   modifiedTime,

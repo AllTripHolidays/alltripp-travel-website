@@ -24,70 +24,70 @@ const trips: Trip[] = [
     title: "Golden Triangle Tour",
     description:
       "Experience India's most iconic circuit, blending the grandeur of Delhi's monuments, the timeless beauty of the Taj Mahal in Agra, and the royal heritage of Jaipur. Perfect for first-time visitors seeking a mix of history, culture, and vibrant city life.",
-    image: "/featured/delhi.jpg",
+    image: "https://images.unsplash.com/photo-1587135941948-670b381f08ce?w=400&h=300&fit=crop&crop=center",
     duration: "5 Days / 4 Nights",
   },
   {
     title: "Spiti Valley Adventure",
     description:
       "Embark on a high-altitude adventure through Spiti Valley's dramatic landscapes, ancient monasteries, and remote Himalayan villages. Ideal for thrill-seekers and nature lovers craving offbeat experiences.",
-    image: "/featured/himachal.jpg",
+    image: "https://images.unsplash.com/photo-1464822759844-d150f39a96e8?w=400&h=300&fit=crop&crop=center",
     duration: "8 Days / 7 Nights",
   },
   {
     title: "Kerala Backwaters & Beaches",
     description:
       "Cruise through Kerala's tranquil backwaters on a traditional houseboat, unwind on palm-fringed beaches, and immerse yourself in lush greenery. Perfect for relaxation and rejuvenation in 'God's Own Country'.",
-    image: "/featured/kerala-backwaters.webp",
+    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=400&h=300&fit=crop&crop=center",
     duration: "6 Days / 5 Nights",
   },
   {
     title: "Rajasthan Royal Heritage Tour",
     description:
       "Explore Rajasthan's majestic forts, opulent palaces, and colorful bazaars in cities like Udaipur, Jodhpur, and Jaisalmer. Discover the vibrant traditions and desert landscapes that define India's royal past.",
-    image: "/featured/Rajasthan.jpg",
+    image: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=400&h=300&fit=crop&crop=center",
     duration: "7 Days / 6 Nights",
   },
   {
     title: "Ladakh Cultural & Scenic Expedition",
     description:
       "Journey through Ladakh's stark mountain landscapes, serene monasteries, and high-altitude lakes. A unique blend of adventure and spiritual discovery in the Himalayas.",
-    image: "/featured/Ladakh.jpg",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&crop=center",
     duration: "9 Days / 8 Nights",
   },
   {
     title: "Sikkim & Darjeeling Himalayan Explorer",
     description:
       "Travel through the lush hills of Sikkim and Darjeeling, famed for tea gardens, Buddhist monasteries, and breathtaking mountain views. Ideal for those seeking tranquility and cultural immersion.",
-    image: "/featured/Darjeeling.jpg",
+    image: "https://images.unsplash.com/photo-1544008230-ac1e1fb4f4f4?w=400&h=300&fit=crop&crop=center",
     duration: "6 Days / 5 Nights",
   },
   {
     title: "Goa Leisure & Heritage Tour",
     description:
       "Relax on Goa's sun-kissed beaches, explore Portuguese-influenced architecture, and savor vibrant nightlife. A perfect blend of relaxation and cultural exploration.",
-    image: "/featured/goa.jpg",
+    image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=400&h=300&fit=crop&crop=center",
     duration: "4 Days / 3 Nights",
   },
   {
     title: "Manali Adventure",
     description:
       "Enjoy thrilling adventures like paragliding and trekking amidst stunning Himalayan landscapes, along with visits to hot springs and cultural sites.",
-    image: "/featured/Manali.jpg",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&crop=center",
     duration: "5 Days / 4 Nights",
   },
   {
     title: "Shimla Colonial Heritage",
     description:
       "Explore colonial heritage landmarks, scenic mountain walks, and the charming Kalka-Shimla toy train experience.",
-    image: "/featured/Shimla.jpg",
+    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=400&h=300&fit=crop&crop=center",
     duration: "4 Days / 3 Nights",
   },
   {
     title: "Meghalaya Living Roots & Culture",
     description:
       "Trek to living root bridges, enjoy water sports at Umiam Lake, and immerse yourself in rich Khasi tribal culture and scenic beauty.",
-    image: "/featured/Meghalaya.jpg",
+    image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=400&h=300&fit=crop&crop=center",
     duration: "5 Days / 4 Nights",
   },
 ];

@@ -20,12 +20,13 @@ export async function GET() {
       const slug = folder;
       const title = slug.replace(/-/g, " ");
       const fileType = fileName.endsWith(".pdf") ? "pdf" : "txt";
-      const image = imageFile ? `/blogs/${slug}/${imageFile}` : "/blogs/default.png";
+      const image = imageFile ? `/blogs/${slug}/${imageFile}` : "https://via.placeholder.com/400x300?text=No+Image";
 
       return {
         title,
         slug,
         fileType,
+        fileName,
         likes: Math.floor(Math.random() * 30),
         comments: Math.floor(Math.random() * 10),
         image,

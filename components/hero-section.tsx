@@ -42,7 +42,7 @@ export default function HeroSection() {
   return (
     <section ref={ref} className="relative h-[85vh] w-full overflow-hidden">
       <Image
-        src="/himalayas.jpg"
+        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop&crop=center"
         alt="Scenic view of Himalayas/Kashmir"
         fill
         priority

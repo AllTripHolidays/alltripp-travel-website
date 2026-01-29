@@ -13,15 +13,21 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   typescript: {
     ignoreBuildErrors: true,
   },
   images: {
     unoptimized: true,
-    domains: ['alltripp.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'alltripp.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+      },
+    ],
     formats: ['image/webp', 'image/avif'],
   },
   experimental: {

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: "https://alltripp.com",
     images: [
       {
-        url: "/himalayas.jpg",
+        url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=630&fit=crop&crop=center",
         width: 1200,
         height: 630,
         alt: "Beautiful Indian Himalayas - AllTripp Travel",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "AllTripp - Discover India's Hidden Gems",
     description: "Explore incredible India with AllTripp's curated travel experiences. Authentic cultural tours and adventure trips.",
-    images: ["/himalayas.jpg"],
+    images: ["https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=630&fit=crop&crop=center"],
   },
   alternates: {
     canonical: 'https://alltripp.com',
