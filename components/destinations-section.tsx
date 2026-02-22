@@ -11,43 +11,43 @@ const destinations = [
 		name: "Kashmir",
 		description:
 			"Nestled in the Himalayas, Kashmir boasts stunning valleys and lakes, with a rich cultural heritage. Experience the serene beauty of Dal Lake, explore the Mughal gardens, and witness the snow-capped peaks that make this paradise on earth truly unforgettable.",
-		image: "/destinations/kashmir.jpg",
+		image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&crop=center",
 	},
 	{
 		name: "Rajasthan",
 		description:
 			"A land of royal palaces, desert landscapes, and colorful markets, offering a captivating blend of history, culture, and architectural wonders in cities like Jaipur, Udaipur, and Jaisalmer. Discover the golden sands of the Thar Desert and majestic forts.",
-		image: "/destinations/rajasthan.jpg",
+		image: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=400&h=300&fit=crop&crop=center",
 	},
 	{
 		name: "Kerala",
 		description:
 			"Known as 'God's Own Country,' Kerala enchants visitors with lush backwaters, serene beaches, and abundant greenery—perfect for a tranquil and rejuvenating escape. Cruise through the backwaters and experience Ayurvedic wellness traditions.",
-		image: "/destinations/kerala.jpg",
+		image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=400&h=300&fit=crop&crop=center",
 	},
 	{
 		name: "Himachal Pradesh",
 		description:
 			"Famed for its snow-capped mountains, pine forests, and adventure hubs like Manali and Shimla, ideal for trekking, nature walks, and scenic retreats. Discover pristine valleys and experience the thrill of mountain adventures.",
-		image: "/destinations/himachal-pradesh.jpg",
+		image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&crop=center",
 	},
 	{
 		name: "Goa",
 		description:
 			"Famed for its sun-kissed beaches, vibrant nightlife, and laid-back coastal vibe, a favorite for relaxation, water sports, and lively festivals. Experience the perfect blend of Portuguese heritage and tropical paradise.",
-		image: "/destinations/goa.jpg",
+		image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=400&h=300&fit=crop&crop=center",
 	},
 	{
 		name: "Uttarakhand",
 		description:
 			"Home to the Himalayas, spiritual towns, and adventure sports, offering breathtaking views, trekking trails, and peaceful hill stations like Nainital and Mussoorie. Discover the source of the Ganges and experience spiritual awakening.",
-		image: "/destinations/Uttarakhand.jpg",
+		image: "https://images.unsplash.com/photo-1464822759844-d150f39a96e8?w=400&h=300&fit=crop&crop=center",
 	},
 	{
 		name: "Meghalaya",
 		description:
 			"Known for its dense rainforests and living root bridges, with tribal culture thriving through unique customs, music, and traditional crafts. Explore the wettest place on earth and witness nature's incredible engineering.",
-		image: "/destinations/Meghalaya.jpg",
+		image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=400&h=300&fit=crop&crop=center",
 	},
 	{
 		name: "Assam",

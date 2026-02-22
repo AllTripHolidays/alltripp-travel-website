@@ -18,7 +18,7 @@ export default function RajasthanPage() {
             "name": "Rajasthan",
             "description": "Land of Kings featuring majestic palaces, forts, desert landscapes, and rich royal heritage",
             "url": "https://alltripp.com/destinations/rajasthan",
-            "image": "https://alltripp.com/destinations/rajasthan.jpg",
+            "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=400&fit=crop&crop=center",
             "containedInPlace": {
               "@type": "Country",
               "name": "India"
@@ -37,7 +37,7 @@ export default function RajasthanPage() {
           
           <div className="mb-8">
             <img 
-              src="/destinations/rajasthan.jpg" 
+              src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=400&fit=crop&crop=center" 
               alt="Rajasthan Palace - Majestic royal architecture" 
               className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
               loading="eager"

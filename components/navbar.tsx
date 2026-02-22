@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
             >
               <div className="w-40 h-20 relative flex items-center justify-center">
                 <Image
-                  src="/logo.png"
+                  src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=160&h=80&fit=crop&crop=center"
                   alt="AllTripp Logo"
                   width={160}
                   height={80}
@@ -147,39 +147,41 @@ const Navbar: React.FC = () => {
                 <div className="h-5 w-5" />
               )}
             </Button>
-            <Drawer open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
-              <DrawerTrigger asChild>
-                <Button variant="outline" size="icon" aria-label="Toggle menu">
-                  <Menu className="h-5 w-5" />
-                  <span className="sr-only">Toggle menu</span>
-                </Button>
-              </DrawerTrigger>
-              <DrawerContent className="bg-white/70 backdrop-blur-sm">
-                <DrawerHeader>
-                  <DrawerTitle>AllTripp</DrawerTitle>
-                  <DrawerDescription>
-                    One Solution For All Your Travel Needs
-                  </DrawerDescription>
-                </DrawerHeader>
-                <div className="flex flex-col gap-4 p-4">
-                  {navLinks.map((link) => (
-                    <Link
-                      key={link.name}
-                      href={link.href}
-                      onClick={() => setIsDrawerOpen(false)}
-                      className="text-sm font-medium transition-colors hover:text-primary"
-                    >
-                      {link.name}
-                    </Link>
-                  ))}
-                </div>
-                <DrawerFooter>
-                  <DrawerClose asChild>
-                    <Button variant="outline">Close</Button>
-                  </DrawerClose>
-                </DrawerFooter>
-              </DrawerContent>
-            </Drawer>
+            {mounted && (
+              <Drawer open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
+                <DrawerTrigger asChild>
+                  <Button variant="outline" size="icon" aria-label="Toggle menu">
+                    <Menu className="h-5 w-5" />
+                    <span className="sr-only">Toggle menu</span>
+                  </Button>
+                </DrawerTrigger>
+                <DrawerContent className="bg-white/70 backdrop-blur-sm">
+                  <DrawerHeader>
+                    <DrawerTitle>AllTripp</DrawerTitle>
+                    <DrawerDescription>
+                      One Solution For All Your Travel Needs
+                    </DrawerDescription>
+                  </DrawerHeader>
+                  <div className="flex flex-col gap-4 p-4">
+                    {navLinks.map((link) => (
+                      <Link
+                        key={link.name}
+                        href={link.href}
+                        onClick={() => setIsDrawerOpen(false)}
+                        className="text-sm font-medium transition-colors hover:text-primary"
+                      >
+                        {link.name}
+                      </Link>
+                    ))}
+                  </div>
+                  <DrawerFooter>
+                    <DrawerClose asChild>
+                      <Button variant="outline">Close</Button>
+                    </DrawerClose>
+                  </DrawerFooter>
+                </DrawerContent>
+              </Drawer>
+            )}
           </div>
         )}
       </div>

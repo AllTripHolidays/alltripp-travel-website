@@ -18,7 +18,7 @@ export default function KashmirPage() {
             "name": "Kashmir",
             "description": "Paradise on earth with snow-capped mountains, pristine lakes, and rich cultural heritage",
             "url": "https://alltripp.com/destinations/kashmir",
-            "image": "https://alltripp.com/destinations/kashmir.jpg",
+            "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop&crop=center",
             "containedInPlace": {
               "@type": "Country",
               "name": "India"
@@ -37,7 +37,7 @@ export default function KashmirPage() {
           
           <div className="mb-8">
             <img 
-              src="/destinations/kashmir.jpg" 
+              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop&crop=center" 
               alt="Kashmir Valley - Beautiful mountains and lakes" 
               className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
               loading="eager"

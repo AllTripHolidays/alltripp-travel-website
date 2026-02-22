@@ -18,7 +18,7 @@ export default function KeralaPage() {
             "name": "Kerala",
             "description": "God's Own Country featuring backwaters, hill stations, spice plantations, and rich cultural heritage",
             "url": "https://alltripp.com/destinations/kerala",
-            "image": "https://alltripp.com/destinations/kerala.jpg",
+            "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=400&fit=crop&crop=center",
             "containedInPlace": {
               "@type": "Country",
               "name": "India"
@@ -37,7 +37,7 @@ export default function KeralaPage() {
           
           <div className="mb-8">
             <img 
-              src="/destinations/kerala.jpg" 
+              src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=400&fit=crop&crop=center" 
               alt="Kerala Backwaters - Serene houseboats and palm trees" 
               className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
               loading="eager"
